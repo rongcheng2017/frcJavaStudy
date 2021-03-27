@@ -37,10 +37,10 @@ public class RandomStringGenerator<T> implements Iterable<T> {
         for (String randomString : randomStrings) {
             System.out.println(randomString);
         }
-
         ArrayList<String> arr=new ArrayList<String>();
         arr.add("123");
         arr.toArray(new String[0]);
         arr.toArray(String[]::new);
+
     }
 }
